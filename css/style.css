@@ -1,0 +1,81 @@
+
+*{
+  font-family: "acmeregular", "helvetica","sans-serif";
+}
+.title{
+  font-size: 90px;
+  text-align: center;
+  margin: 60px 0 0 0;
+  color: white;
+}
+.tag{
+  text-align: center;
+  font-size: 30px;
+  color: white;
+}
+.parallax {
+    /* The image used */
+    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/12/code-woman.png");
+    /* Set a specific height */
+    height: 550px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    border-radius: 20px
+}
+
+.wrapper{
+  background-image: url("https://i.makeagif.com/media/6-16-2016/IURyiE.gif");
+      background-repeat: no-repeat;
+      background-size: auto;
+      background-size:120%;
+  height: 150%;
+  margin: 30px;
+
+}
+.parallax li{
+  background-color: white;
+  padding: 0px;
+  margin:0px;
+  border-radius: 50px
+
+}
+
+.witImg {
+  height: 300px;
+    width: 250px;
+    border-radius: 50%;
+}
+.center{
+  padding: 80px;
+}
+.footer{
+  text-align: center;
+  font-size: 40px;
+  display: inline;
+
+}
+.column a {
+  display: inline;
+  float: left;
+  width: 30%
+}
+.column p {
+  color: white;
+
+}
+.tag{
+  color: white;
+  font-size: 50px;
+  float: right;
+  padding-right: 150px;
+
+}
+@media only screen and (max-width: 600px) {
+  .title {
+    font-size: 50px;
+  }
+}

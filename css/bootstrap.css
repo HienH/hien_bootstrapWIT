@@ -1,0 +1,102 @@
+* {
+  font-family: 'Lora', serif;
+}
+
+h3 {
+  color: #9e2500;
+}
+
+.min_facts {}
+
+.jumbotron {
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.8;
+  border-radius: 0;
+  min-height: 600px;
+  padding-top: 100px;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.jumbotron2 {
+  background-color: rgba(253, 252, 165, 0.44);
+  min-height: 300px;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url("../images/womenintec.jpg");
+  /* Set a specific height */
+  height: 550px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  border-radius: 20px;
+}
+
+body {
+  height: 120%;
+}
+
+.witImg {
+  height: 300px;
+  width: 250px;
+  border-radius: 50%;
+}
+
+.jumbotron h1 {
+  color: #9e2500;
+  font-size: 130px;
+  opacity: 1;
+}
+
+.jumbotron .lead {
+  font-size: 50px;
+  color: #9e2500;
+  float: right;
+  margin-left: 500px;
+}
+
+.photos p {
+  margin-top: 30px;
+}
+
+.jumbo {
+  background-color: rgba(253, 252, 165, 0.44);
+  text-align: center;
+  ;
+  height: 300px;
+}
+
+.imgada {
+  float: left;
+  margin: 40px;
+  border-radius: 50px;
+  width: 550px;
+  height: 450px;
+}
+
+.jumbo .title {
+  padding-top: 80px;
+}
+
+.min_facts {
+  margin: 30px;
+}
+
+.jumbotron2 {
+  margin: 20px;
+  text-align: center;
+}
+
+.footer1 {
+  background-color: rgba(253, 252, 165, 0.44);
+}
+
+.extra_info {
+  margin-top: 63px;
+}
